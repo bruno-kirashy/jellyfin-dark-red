@@ -58,7 +58,7 @@ Ultra-dark background with cyan neon as the primary accent color, designed for a
 4. Click **Save**
 ### Option 2 — Raw file
 ```css
-@import url('https://raw.githubusercontent.com/bruno-kirashy/jellyfin-dark-neon/main/dark-neon.css');
+@import url('https://raw.githubusercontent.com/bruno-kirashy/jellyfin-dark-red/refs/heads/main/jellyfin-dark-neon.css');
 ```
 ## Colors
 | Variable | Value | Usage |
