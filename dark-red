@@ -1,0 +1,483 @@
+:root {
+  --rosewater: #f4dbd6;
+  --flamingo: #f0c6c6;
+  --pink: #f5bde6;
+  --mauve: #c6a0f6;
+  --red: #e50914;
+  --maroon: #b20710;
+  --peach: #f5a97f;
+  --yellow: #eed49f;
+  --green: #46d369;
+  --teal: #8bd5ca;
+  --sky: #91d7e3;
+  --sapphire: #7dc4e4;
+  --blue: #8aadf4;
+  --lavender: #b7bdf8;
+
+  --main-color: var(--red);
+  --main-background: #080808;
+  --second-background: #111111;
+  --hover-background: #1e1e1e;
+  --main-background-transparent: #080808;
+  --main-text: #ffffff;
+  --dimmer-text: #a3a3a3;
+  --green-color: var(--green);
+  --red-color: var(--red);
+}
+
+* {
+  scrollbar-color: var(--hover-background) var(--second-background);
+}
+
+::-moz-selection {
+  background: var(--main-color);
+  color: var(--main-background);
+}
+
+::selection {
+  background: var(--main-color);
+  color: var(--main-background);
+}
+
+.mdl-slider-background-upper {
+  background-color: var(--dimmer-text);
+}
+
+.mdl-slider::-webkit-slider-thumb {
+  background-color: var(--main-color);
+}
+.mdl-slider::-moz-range-thumb {
+  background-color: var(--main-color);
+}
+
+.navMenuOption-selected,
+.iconOsdProgressInner,
+.mdl-slider-background-lower {
+  background-color: var(--main-color);
+}
+
+.iconOsdProgressOuter,
+.mdl-slider-background-flex,
+.formDialogHeader:not(.formDialogHeader-clear),
+.formDialogFooter:not(.formDialogFooter-clear),
+.cardBox:not(.visualCardBox) .cardPadder,
+.MuiListItemButton-root:hover {
+  background-color: var(--hover-background);
+}
+
+.backgroundContainer,
+.formDialogHeader,
+.detailRibbon,
+.dialog,
+.dashboardGeneralForm,
+html {
+  color: var(--main-text);
+  background-color: var(--main-background);
+}
+
+.logoScreenSaver,
+.detailPageSecondaryContainer {
+  background-color: var(--second-background) !important;
+}
+
+.sliderBubble,
+.skinHeader:not(.osdHeader),
+.nowPlayingBar {
+  color: var(--main-text);
+  background-color: var(--second-background) !important;
+}
+
+.nowPlayingBarSecondaryText {
+  color: var(--dimmer-text);
+}
+
+.mainDrawer,
+.cardBox,
+.paperList {
+  background: var(--main-background);
+}
+
+.playstatebutton-icon-played,
+.ratingbutton-icon-withrating {
+  color: var(--red-color);
+}
+
+.emby-input,
+.emby-textarea,
+.emby-select {
+  background: var(--second-background);
+  border-color: var(--second-background);
+}
+
+.emby-input:focus,
+.emby-textarea:focus,
+.emby-select-withcolor:focus {
+  border-color: var(--main-color) !important;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline,
+.itemProgressBarForeground {
+  color: var(--main-text);
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.toast,
+.fab,
+.raised {
+  color: var(--main-text) !important;
+  background-color: var(--second-background) !important;
+}
+
+.paper-icon-button-light:hover:not(:disabled),
+.paper-icon-button-light:active:not(:disabled),
+.listItem:hover,
+.listItem:focus,
+.navMenuOption-selected,
+.navMenuOption:hover,
+.navMenuOption:focus {
+  color: var(--main-color) !important;
+  background-color: var(--hover-background) !important;
+}
+
+.listItemIcon:not(.listItemIcon-transparent) {
+  color: var(--main-text);
+  background-color: var(--second-background) !important;
+}
+
+.notifications {
+  color: var(--blue) !important;
+}
+
+.notification_important {
+  color: var(--red-color) !important;
+}
+
+.button-submit,
+.button-submit:focus,
+.button-alt,
+.button-alt:focus,
+.submit,
+.submit:focus,
+#btnAddPerson,
+#btnAddPerson:focus,
+.btnAddTrigger,
+.btnAddTrigger:focus,
+.btnAddUser,
+.btnAddUser:focus {
+  color: var(--main-text);
+  background: var(--main-color);
+}
+
+.cardText-secondary {
+  color: var(--dimmer-text);
+}
+
+.button-cancel,
+.button-cancel:focus {
+  color: var(--main-color);
+  background: var(--main-background);
+}
+
+#btnShutdown,
+#deviceDeleteAll,
+.btnDeleteImage,
+.btnResetPassword {
+  color: var(--main-text) !important;
+  background: var(--red-color) !important;
+}
+
+.selectionCommandsPanel,
+.btnRefresh {
+  background: var(--main-color) !important;
+  color: var(--main-text) !important;
+}
+
+.backgroundContainer.withBackdrop,
+.backdropContainer,
+.backgroundContainer {
+  background: var(--main-background);
+}
+
+.inputLabelFocused,
+.selectLabelFocused,
+.textareaLabelFocused,
+.button-link,
+.button-flat:hover,
+.itemAction:focus,
+.emby-tab-button-active > .emby-button-foreground,
+.emby-button-foreground:focus,
+.mdl-slider,
+.headerRight,
+.headerLeft,
+.button-link,
+.upNextDialog-countdownText {
+  color: var(--main-color);
+}
+
+.MuiButtonBase-root,
+.MuiSvgIcon-root,
+.listItemButton,
+.checkboxListLabel,
+.lnkMediaFolder,
+.MuiTypography-root {
+  color: var(--main-text) !important;
+}
+
+.Mui-selected {
+  background-color: var(--main-background) !important;
+}
+
+.MuiPaper-root,
+.MuiBox-root,
+.MuiTableContainer-root,
+.MuiTableRow-root,
+.MuiTableCell-root,
+.MuiTableFooter-root,
+.MuiList-root {
+  background-color: var(--second-background);
+  border-color: var(--hover-background) !important;
+  outline-color: var(--main-color);
+}
+
+.nowPlayingPlaylist,
+.MuiToolbar-root,
+.collapseContent {
+  background-color: var(--main-background);
+}
+
+.indicator {
+  background-color: var(--main-color);
+  color: var(--main-text);
+}
+
+.playedIndicator {
+  background-color: var(--green-color);
+  color: var(--main-background);
+}
+
+.alphaPickerRow,
+.devices-subheader {
+  color: var(--dimmer-text);
+}
+
+.buttonActive,
+.button-accent-flat,
+.metadataSidebarIcon,
+.layout-tv .paper-icon-button-light.show-focus:focus {
+  color: var(--main-color) !important;
+}
+
+.layout-tv .emby-button:not(.emby-tab-button).show-focus:focus {
+  background: var(--main-color) !important;
+}
+
+.layout-tv .emby-button:not(.emby-tab-button).show-focus:focus .listItem,
+.layout-tv
+  .emby-button:not(.emby-tab-button).show-focus:focus
+  .listItemBodyText {
+  color: var(--main-text) !important;
+}
+
+.sectionTitle,
+.cardText,
+.pageTitle,
+.detailSectionContent,
+.trackSelections,
+.emby-input,
+.checkboxLabel,
+.itemDetailsGroup,
+.checkboxOutline,
+.emby-textarea,
+.emby-select,
+.label,
+.selectLabel,
+.sidebarHeader,
+.listItem,
+.listItemBodyText,
+.MuiMenuItem-root,
+.dashboardGeneralForm,
+.dashboardSections,
+.navMenuOption,
+.inputLabel,
+.content-primary,
+.itemName,
+.paper-icon-button-light,
+.emby-button-foreground,
+.iconOsd .iconOsdIcon,
+.upNextContainer,
+.selectionCommandsPanel > button:hover > .material-icons,
+.paperListLabel,
+legend {
+  color: var(--main-text);
+}
+
+.osdTextContainer,
+.osdTimeText,
+.transparentDocument .paper-icon-button-light,
+.transparentDocument .pageTitle,
+.cardOverlayContainer .paper-icon-button-light,
+.sessionAppName,
+.sessionNowPlayingInfo,
+.sessionNowPlayingTime {
+  color: var(--white-text);
+}
+
+.devicesList .cardContent.defaultCardBackground,
+.cardContent.defaultCardBackground:has(.sessionNowPlayingContent) {
+  background-color: var(--dark-background) !important;
+}
+
+.fieldDescription,
+.MuiListItemText-secondary,
+.MuiListSubheader-root,
+.secondary {
+  color: var(--dimmer-text) !important;
+}
+
+.listItem-border {
+  border-color: var(--hover-background) !important;
+}
+
+.selectionCommandsPanel > button > .material-icons,
+.checkboxOutline .checkboxIcon-checked {
+  color: var(--main-text);
+}
+
+/* this has to be background, not background-color for some reason */
+div[role="presentation"].jstree-wholerow-clicked {
+  background: var(--hover-background) !important;
+}
+
+.jstree-hovered,
+.jstree-clicked,
+.jstree-wholerow-hovered {
+  color: var(--main-text) !important;
+  background-color: var(--hover-background) !important;
+}
+
+.mdl-spinner__layer {
+  border-color: var(--main-color);
+}
+
+.infoBanner {
+  color: var(--main-text);
+  background: var(--second-background);
+}
+
+.playlistSectionButton {
+  background: var(--second-background);
+}
+
+.iconOsd,
+.cardContent.defaultCardBackground,
+.cardContent .defaultCardBackground {
+  background-color: var(--second-background);
+}
+
+.itemProgressBar.playbackProgress .itemProgressBarForeground {
+  background-color: var(--main-color) !important;
+}
+
+.itemProgressBar.backgroundProgress .itemProgressBarForeground {
+  background-color: var(--hover-background) !important;
+}
+
+.detailPagePrimaryContainer,
+.backgroundContainer.withBackdrop {
+  background-color: var(--main-background-transparent);
+}
+
+.emby-checkbox:focus:not(:checked) + span + .checkboxOutline,
+.itemSelectionPanel {
+  border-color: var(--main-color);
+}
+
+.selectionCommandsPanel .itemSelectionCount {
+  color: var(--main-text) !important;
+}
+
+.MuiListItemButton-root img {
+  background-color: transparent;
+}
+
+.Mui-TableHeadCell-Content-Labels,
+.MuiTableCell-body {
+  color: var(--main-text);
+}
+
+.Mui-TableHeadCell-Content-Labels .MuiTableSortLabel-icon {
+  color: var(--main-text) !important;
+}
+
+.MuiChip-filledInfo {
+  color: var(--main-text);
+  background-color: var(--blue);
+}
+
+.MuiChip-filledError {
+  color: var(--main-text);
+  background-color: var(--red-color);
+}
+
+.MuiFormLabel-colorPrimary,
+.MuiTablePagination-root,
+.MuiTablePagination-root .MuiSelect-select,
+.MuiTableCell-head {
+  color: var(--main-text);
+}
+
+.MuiAlert-standard.MuiAlert-colorInfo,
+.MuiAlert-standard.MuiAlert-colorInfo .MuiSvgIcon-root {
+  color: var(--sky) !important;
+}
+
+.MuiAlert-standard.MuiAlert-colorSuccess,
+.MuiAlert-standard.MuiAlert-colorSuccess .MuiSvgIcon-root {
+  color: var(--green) !important;
+}
+
+.MuiButton-containedPrimary {
+  color: var(--main-text) !important;
+  background-color: var(--red) !important;
+}
+
+.MuiButton-containedError {
+  color: var(--main-text) !important;
+  background-color: var(--red) !important;
+}
+
+.MuiButton-contained .MuiSvgIcon-root {
+  color: var(--main-text) !important;
+}
+
+.MuiAccordion-root,
+.MuiFormControlLabel-label.Mui-disabled,
+.mediaInfoOfficialRating,
+.guideProgramNameCaretIcon,
+.mediaInfoItem {
+  color: var(--main-text) !important;
+}
+
+.emby-select-withcolor > option {
+  background-color: var(--main-background);
+}
+
+.starIcon {
+  color: var(--yellow);
+}
+
+.programCell-active {
+  background-color: var(--second-background) !important;
+}
+
+div[data-role="controlgroup"] .emby-button {
+  color: var(--main-text) !important;
+  background-color: var(--second-background) !important;
+}
+
+.programCell:focus,
+div[data-role="controlgroup"] a.ui-btn-active {
+  color: var(--main-text) !important;
+  background-color: var(--main-color) !important;
+}
