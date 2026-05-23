@@ -53,7 +53,7 @@ Ultra-dark background with cyan neon as the primary accent color, designed for a
 2. Go to **Administration → Dashboard → General**
 3. Paste the following in the **Custom CSS** field:
 ```css
-@import url('https://cdn.jsdelivr.net/gh/bruno-kirashy/jellyfin-dark-neon@main/dark-neon.css');
+@import url('https://cdn.jsdelivr.net/gh/bruno-kirashy/jellyfin-dark-red@main/jellyfin-dark-neon.css');
 ```
 4. Click **Save**
 ### Option 2 — Raw file
